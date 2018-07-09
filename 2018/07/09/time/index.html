@@ -22,101 +22,61 @@
 
 <body class="loading">
     <div id="loader"></div>
-    <div class="nav">
-    <ul id="menu-menu" class="menu">
-        
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/about/" title="Whoami" target="_blank" rel="noopener">Whoami</a>
-        </li>
-        
-        <li class="  menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="https://github.com/xutingyin" title="Github" target="_blank" rel="noopener">Github</a>
-        </li>
-        
-        <li class="  menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="https://blog.csdn.net/CSDN0301" title="csdn" target="_blank" rel="noopener">csdn</a>
-        </li>
-        
-        <li class="  menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="https://500px.me/xutingyin" title="500px" target="_blank" rel="noopener">500px</a>
-        </li>
-        
-        <li class="  menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="https://unsplash.com/@codingsunshine" title="unsplash" target="_blank" rel="noopener">unsplash</a>
-        </li>
-        
-    </ul>
-    <p id="copyright">
-        &copy; 2018 TingYin.Xu.
-        Powered by <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a>
-        Theme <a href="https://github.com/Fechin/hexo-theme-diaspora" title="Diaspora" target="_blank" rel="noopener">Diaspora</a>
-        by Fechin
-    </p>
-</div>
-
-<div id="container">
-    
-<div id="screen">
-    <div id="mark">
-        <div class="layer" data-depth="0.4">
-            <img src="/images/timer-clock.png" id="cover" crossorigin="anonymous" width="1920" height="1080">
-        </div>
-    </div>
-    <div id="vibrant">
-        <svg viewBox="0 0 2880 1620" height="100%" preserveAspectRatio="xMaxYMax slice">
-            <polygon opacity="0.7" points="2000,1620 0,1620 0,0 600,0 "/>
-        </svg>
-        <div></div>
-    </div>
-    <div id="header">
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="icon-home image-icon" href="javascript:;"></a>
+    <div title="播放/暂停" class="icon-play"></div>
+    <h3 class="subtitle">time</h3>
+    <div class="social">
+        <!--<div class="like-icon">-->
+            <!--<a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
+        <!--</div>-->
         <div>
-            <a class="image-logo" href="/"></a>
-            <div class="icon-menu switchmenu"></div>
+            <div class="share">
+                <a title="获取二维码" class="icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
         </div>
     </div>
-    
-    <div id="post0">
-        <p>七月 09, 2018</p>
-        <h2><a href="/2018/07/09/time/" title="time" class="posttitle">time</a></h2>
-        <p class="summary">Time ing …
-</p>
-    </div>
-    
+    <div class="scrollbar"></div>
 </div>
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">time</h1>
+        <div class="stuff">
+            <span>七月 09, 2018</span>
+            
 
-    <div id="primary">
+        </div>
+        <div class="content markdown">
+            <h3 id="Time-ing-…"><a href="#Time-ing-…" class="headerlink" title="Time ing …"></a>Time ing …</h3><p><img src="/images/timer-clock.png"></p>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src="http://link.hhtjim.com/163/425570952.mp3">
+            </audio>
+        </div>
         
-<div class="post">
-    <a href="/2018/07/08/resume/" title="resume">
-        <img src="/images/Hello-sunshine.jpg" class="cover" width="680" height="440">
-    </a>
-    <div class="else">
-        <p>七月 08, 2018</p>
-        <h3><a href="/2018/07/08/resume/" title="resume" class="posttitle">resume</a></h3>
-        <p>ME:Tingyin.Xu
-This is my first blog.
-</p>
-    </div>
-</div>
-
-
-<div class="post">
-    <a href="/2018/07/05/hello-world/" title="Hello World">
-        <img src="https://images.unsplash.com/photo-1484265500982-34aebf76c655?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d7b5ef2d55aa252009798e973c4026c4&auto=format&fit=crop&w=1189&q=80" class="cover" width="680" height="440">
-    </a>
-    <div class="else">
-        <p>七月 05, 2018</p>
-        <h3><a href="/2018/07/05/hello-world/" title="Hello World" class="posttitle">Hello World</a></h3>
-        <p>Welcome to Hexo! This is your very first post. Check documentation for more i...</p>
-    </div>
-</div>
+    <div id='gitalk-container' class="comment link"
+        data-ae='false'
+        data-ci='a396afe529734b15300f'
+        data-cs='0ae7c1790f9a5cbc2b7339c12a82d58fe58f9567'
+        data-r='xutingyin.github.io'
+        data-o='xutingyin'
+        data-a='xutingyin'
+        data-d='false'
+    >查看评论</div>
 
 
     </div>
     
 </div>
-<div id="preview"></div>
 
+
+    </div>
+</div>
 </body>
 <script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
